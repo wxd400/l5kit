@@ -5,7 +5,7 @@ format_version: 4
 ## Model options
 model_params:
   model_architecture: "resnet50"
-
+  render_ego_history: True
   history_num_frames: 0
   future_num_frames: 50
   step_time: 0.1
